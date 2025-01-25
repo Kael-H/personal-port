@@ -1,0 +1,9 @@
+.top-img {
+    background-image: url(./portfolio_img/IMG_6797\(bww\).jpeg);
+    background-size: cover;
+    background-position: bottom;
+    aspect-ratio: 4/3;
+    height: 675px;
+    
+}
+
