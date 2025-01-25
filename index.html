@@ -26,26 +26,29 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav>
-      <div class="container position-absolute">
-        <div class="row">
-          <div class="col-12">
-            <div class="d-flex">
-              <a class="navbar-brand ms-auto me-auto text-light" href="#"
-                >Kael Harris</a
-              >
-              <a class="nav-item nav-link me-3 text-light" href="#">Home</a>
-              <a class="nav-item nav-link ms-3 me-3 text-light" href="#"
-                >About</a
-              >
-              <a class="nav-item nav-link ms-3 me-auto text-light" href="#"
-                >Portfolio</a
-              >
+    <!--navbar-->
+
+    <div class="container position-absolute">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expanded-xl">
+            <div class="container">
+              <div class="d-flex">
+                <a class="navbar-brand text-light" href="#">Kael Harris</a>
+              </div>
+              <div class="d-flex">
+                <a class="nav-item nav-link text-light" href="#">Home</a>
+                <a class="nav-item nav-link text-light" href="#">About</a>
+                <a class="nav-item nav-link text-light" href="#">Portfolio</a>
+                <a class="nav-item nav-link text-light nav-links" href="#">links</a>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
-    </nav>
+    </div>
+
+    <!--title screen-->
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
@@ -57,23 +60,34 @@
         </div>
       </div>
     </div>
+
+    <!--about me-->
+
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="about-me mt-4 mb-4">
-            <h2 class="about-ttl mt-4 mb-4">About Me</h2>
-            <p class="about-info mb-4">text about me</p>
-          </div>
+          <h2 class="about-ttl d-flex justify-content-center">About Me</h2>
+        </div>
+        <div class="col-12">
+          <p class="about-info d-flex justify-content-center">text about me</p>
         </div>
       </div>
     </div>
+
+    <!--portfolio-->
+
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="port">
-            <h2 class="port-title">My Portfolio</h2>
-            <p class="port-info">detailes about my portfolio</p>
-            <div class="row">
+        <div class="col-12"> 
+          <div class="row">
+            <div class="col-12">
+              <h2 class="port-title d-flex justify-content-center">My Portfolio</h2>
+            </div>
+            <div class="col-12">
+              <p class="port-info d-flex justify-content-center">detailes about my portfolio</p>
+            </div>
+            <div class="col-12">
+              <div class="row">
               <div class="col-3">
                 <div class="port-img border p-4">img</div>
               </div>
@@ -103,17 +117,21 @@
         </div>
       </div>
     </div>
+
+    <!--footer-->
+
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="footer-top">
-            <h2 class="foot-ttl">Kael Harris</h2>
-            <p class="foot-info">text for the footer</p>
-          </div>
-          <div class="col-12">
-            <div class="footer-bottom">atlcadamy info and links</div>
-          </div>
+          <h2 class="foot-ttl d-flex justify-content-center">Kael Harris</h2>
         </div>
+        <div class="col-12">
+          <p class="foot-info d-flex justify-content-center">text for the footer</p>
+        </div>
+        <div class="col-12">
+          <div class="footer-bottom">atlcadamy info and links</div>
+        </div>
+        
       </div>
     </div>
   </body>
