@@ -7,3 +7,27 @@
     
 }
 
+.nav-color {
+    background-color: rgb(56, 56, 56);
+}
+
+.nav-brand {
+    width: 100px;
+}
+
+.nav-links {
+width: 100px;
+}
+
+.about-img {
+    height: 400px;
+    aspect-ratio: 1/1;
+}
+
+.footer-background {
+    background-color: rgb(162, 228, 228);
+}
+
+.footer-bottom {
+    background-color: rgb(56, 56, 56);
+}
