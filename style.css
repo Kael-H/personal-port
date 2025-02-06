@@ -1,66 +1,83 @@
-.top-img {
-    background-image: url(./portfolio_img/IMG_6797\(bww\).jpeg);
-    background-size: cover;
-    background-position: bottom;
-    aspect-ratio: 4/3;
-    height: 675px;
+@media only screen and (min-width: 1200px) {
+  .about-pos {
+    margin-top: -80px;
+  }
+}
 
+@media only screen and (max-width: 767px) {
+  .nav-xs-links {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.top-img {
+  background-image: url(./portfolio_img/IMG_6797\(bww\).jpeg);
+  background-size: cover;
+  background-position: bottom;
+  aspect-ratio: 4/3;
+  height: 75%;
+}
+
+.sm-margin {
+  height: 80px;
 }
 
 .nav-color {
-    background-color: rgb(56, 56, 56);
-    border-bottom: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(162, 228, 228);
+  background-color: rgb(56, 56, 56);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(162, 228, 228);
 }
 
 .nav-brand {
-    width: 100px;
+  width: 100px;
 }
 
 .logo {
-    aspect-ratio: 7/5;
-    width: 75px;
+  aspect-ratio: 7/5;
+  width: 75px;
 }
 
 .nav-links {
-width: 100px;
+  width: 100px;
 }
 
 .icon-img {
-    aspect-ratio: 1/1;
-    width: 35px;
+  aspect-ratio: 1/1;
+  width: 35px;
 }
 
 .decal {
-    border-radius: 2px;
-    border-color: rgb(162, 228, 228);
-    border-style: solid;
-    background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 2px;
+  border-color: rgb(162, 228, 228);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.445);
 }
 
 .ttl-txt {
-    border-top: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .about-img {
-    height: 400px;
-    aspect-ratio: 1/1;
+  height: 400px;
+  aspect-ratio: 1/1;
 }
 
 .about-color {
-    background-color: rgb(241, 241, 241);
+  background-color: rgb(241, 241, 241);
+  margin-bottom: 130px;
 }
 
 .logo-img {
-    aspect-ratio: 7/5;
-    width: 135px;
+  aspect-ratio: 7/5;
+  width: 135px;
 }
 
 .footer-background {
-    background-color: rgb(162, 228, 228);
+  background-color: rgb(162, 228, 228);
 }
 
 .footer-bottom {
-    background-color: rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56);
 }
